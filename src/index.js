@@ -1,5 +1,5 @@
 // Import vue component
-import component from 'VueWsnTest';
+import component from './VueWsnTest.vue';
 
 // Declare install function executed by Vue.use()
 export function install(Vue) {
