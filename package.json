@@ -1,25 +1,15 @@
 {
   "name": "vue-wsn-test",
-  "main": "dist/vue-wsn-test.ssr.js",
-  "module": "dist/vue-wsn-test.esm.js",
-  "unpkg": "dist/vue-wsn-test.min.js",
-  "style": "dist/vue-wsn-test.css",
-  "version": "1.0.0",
-  "description": "",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/whosaynow/vue-wsn-test.git"
+  "peerDependencies": {
+    "vue": "^2.6.12",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/whosaynow/vue-wsn-test/issues"
-  },
-  "homepage": "https://github.com/whosaynow/vue-wsn-test#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^16.0.0",
     "@rollup/plugin-node-resolve": "^10.0.0",
